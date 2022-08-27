@@ -232,6 +232,7 @@
   .plan-card {
     width: 58vw;
     margin-left: 70px;
+    height: 95vh;
   }
   .pack-name {
     height: 160px;
@@ -244,7 +245,8 @@
     font-size: 15px;
   }
   .check-icon-para-section {
-    margin-top: 20px;
+    margin-top: 10px;
+    height: 190px;
   }
   .check-icon {
     padding-right: 15px;
@@ -274,6 +276,13 @@
     margin: 0px 0px;
     margin-top: 2px;
   }
+}
+@media (max-width: 380px) {
+.plan-card {
+  width: 62vw;
+  margin-left: 75px;
+  
+}
 }
 /*-----------Customer-Section------------*/
 
