@@ -128,7 +128,7 @@
   .second-heading{
     padding: 8px 8px;
     margin-bottom: 0px;
-    margin-top: 40px;
+    margin-top: 80px;
     font-size: 22px;
     margin-left: 0px;
   }
@@ -316,7 +316,7 @@
 }
 @media (max-width: 800px) {
   #customer-section {
-    margin-top: 7vh;
+    margin-top: 10vh;
   }
   .customer-heading {
     font-size: 28px;
