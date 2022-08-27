@@ -16,6 +16,7 @@
     height: 40px;
     width: 150px;
     margin-top: 0px;
+    margin-left: 20px;
   }
   #btn,
   #cancel {
@@ -55,6 +56,11 @@
     display: block;
   }
 }
+ @media (max-width:500px) {
+.logo {
+  margin-left: 5px;
+}
+}
 
 /*-----------------Main_Heading_Section----------------*/
 @media (max-width: 850px) {
@@ -86,7 +92,7 @@
   }
 
   .second-heading {
-    width: 87%;
+    width: 86%;
   }
   .hosting-intro-img {
     width: 90%;
@@ -122,9 +128,12 @@
   .second-heading{
     padding: 8px 8px;
     margin-bottom: 0px;
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 22px;
     margin-left: 0px;
+  }
+  .first-headingM {
+    margin-right: 10px;
   }
   .hosting-paragraph2nd {
     font-size: 13px;
@@ -168,7 +177,7 @@
 }
 @media (min-width: 250) and (max-width: 600px) {
   .hosting-card {
-    width: 100%;
+    width: 90%;
   }
 }
 /* ----------------Plan_Secrion----------------*/
@@ -347,7 +356,7 @@
     flex-direction: column;
   }
   .register-heading {
-    width: 100%;
+    width: 90%;
   }
   #register-content-section h1 {
     font-size: 30px;
@@ -359,7 +368,7 @@
     padding: 7px 0px;
   }
   .register-new-btn {
-    width: 100%;
+    width: 80%;
     padding: 12px 20px;
     margin-bottom: 40px;
     margin-top: 30px;
