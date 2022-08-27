@@ -123,6 +123,7 @@ body {
 .hosting-intro-img {
   height: 75vh;
   width: 45vw;
+  border: 2px solid red;
 }
 .hosting-intro-img1 {
   height: 70vh;
@@ -162,7 +163,6 @@ body {
 }
 .hosting-card {
   width: 27vw;
-  /* margin-top: 40px; */
 }
 .Cloud-hosting-img {
   height: 60px;
@@ -183,7 +183,7 @@ body {
   word-break: break-all;
   font-family: "Poppins", sans-serif;
 }
-/* ----------------Plan_Secrion----------------*/
+/* ----------------Plan_Section----------------*/
 #main-plan-section {
   padding: 60px 0px;
   background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%),
@@ -201,6 +201,7 @@ body {
   display: grid;
   grid-template-columns:repeat(auto-fill,25rem);
   justify-content: center;
+  align-items: center;
 }
 .plan-card {
   margin-top: 20px;
