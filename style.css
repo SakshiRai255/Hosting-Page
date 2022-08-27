@@ -1,0 +1,467 @@
+/*-----------------CSS_Reset-----------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #fff;
+}
+/*-----------------Nav_Bar-----------------*/
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.logo {
+
+  margin-top: 18px;
+  margin-left: 30px;
+  height: 45px;
+  width: 120px;
+}
+/*-----------------Menu_Bar-----------------*/
+#menu-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-items {
+  margin: 5px 16px;
+}
+.list-items a {
+  text-decoration: none;
+  color: rgb(117, 114, 114);
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
+.list-items a.active {
+  color: #000;
+  font-weight: bold;
+}
+#nav-btn {
+  border-radius: 8px;
+  color: #5cb6f9;
+  border: 1px solid #09c6f9;
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 15px;
+  margin: 0px 40px;
+  cursor: pointer;
+}
+
+#btn,
+#cancel {
+  font-size: 35px;
+  line-height: 80px;
+  cursor: pointer;
+  margin-left: 15px;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+/*-----------------Main_Heading_Section----------------*/
+
+.main-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25vh;
+  width: 95%;
+  margin-left: 40px;
+}
+.main-heading2nd{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 25vh;
+  width: 95%;
+}
+.first-heading {
+  width: 38vw;
+  margin-top: 30px;
+}
+.hosting-heading {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 50px;
+  color: rgb(41, 39, 39);
+  font-family: "Nanum Gothic", sans-serif;
+  word-break: break-all;
+}
+.hosting-paragraph {
+  padding: 15px 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(31, 28, 28);
+  font-family: "Poppins", sans-serif;
+  word-break: break-all;
+}
+.hosting-btn {
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%),
+    rgba(252, 163, 17, 0.1);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 0px 10px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/*----------------Intro-Image--------------------------*/
+
+.hosting-intro-img {
+  height: 75vh;
+  width: 45vw;
+}
+.hosting-intro-img1 {
+  height: 70vh;
+  width: 50vw;
+  margin-top: 60px;
+}
+
+.second-heading{
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 50px;
+  color: rgb(41, 39, 39);
+  font-family: "Nanum Gothic", sans-serif;
+  word-break: break-all;
+  margin-left: 40px;
+}
+.hosting-paragraph2nd {
+  font-size: 17px;
+  width: 62vw;
+  height: 70px;
+  color: rgb(31, 28, 28);
+  margin-top: 10vh;
+  padding: 5px 5px;
+  font-family: "Poppins", sans-serif;
+  word-break: break-all;
+}
+
+/*----------------Hositing-Cloud-Card-Section----------*/
+
+#hosting-card-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 15vh;
+}
+.hosting-card {
+  width: 27vw;
+  /* margin-top: 40px; */
+}
+.Cloud-hosting-img {
+  height: 60px;
+  width: 60px;
+}
+.Cloud-hosting-heading {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: rgb(41, 39, 39);
+  font-family: "Nanum Gothic", sans-serif;
+}
+.Cloud-hosting-paragraph {
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: rgb(41, 39, 39);
+  word-break: break-all;
+  font-family: "Poppins", sans-serif;
+}
+/* ----------------Plan_Secrion----------------*/
+#main-plan-section {
+  padding: 60px 0px;
+  background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%),
+    rgba(252, 163, 17, 0.1);
+}
+
+.main-plan-section-heading {
+  text-align: center;
+  font-size: 50px;
+  padding: 60px 0px;
+  color: #fff;
+}
+
+#plan-section {
+  display: grid;
+  grid-template-columns:repeat(auto-fill,25rem);
+  justify-content: center;
+}
+.plan-card {
+  margin-top: 20px;
+  height: 110vh;
+  width: 28vw;
+  margin-left: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+  background-color: #fff;
+  z-index: 1;
+}
+.pack-name {
+  height: 150px;
+}
+.plan-heading {
+  padding: 10px 25px;
+  padding-top: 45px;
+  font-size: 30px;
+  color: rgb(41, 39, 39);
+  font-family: "Nanum Gothic", sans-serif;
+}
+.plan-para {
+  padding: 5px 25px;
+  font-size: 17px;
+  color: rgb(41, 39, 39);
+  font-family: "Poppins", sans-serif;
+}
+.active2 {
+  background: rgb(61, 60, 60);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.active-heading {
+  color: #fff;
+}
+.active-para {
+  color: #fff;
+}
+.check-icon-para-section {
+  margin-top: 50px;
+  height: 215px;
+}
+.check-icon {
+  padding-right: 15px;
+}
+.check-icon-para h3 {
+  color: rgb(66, 66, 65);
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.check-icon-para {
+  display: flex;
+  padding: 10px 0px;
+  padding-left: 15px;
+}
+.plan-rate-section {
+  text-align: center;
+  height: 180px;
+  margin-top: 50px;
+}
+
+.plan-rate-section h1 {
+  font-size: 35px;
+  color: rgb(24, 34, 66);
+  font-family: "Nanum Gothic", sans-serif;
+}
+.plan-rate-section span {
+  color: rgb(139, 136, 136);
+}
+.plan-rate-section p {
+  font-size: 22px;
+  color: rgb(88, 88, 88);
+  padding: 20px 0px;
+}
+.plan-btn {
+  color: #5cb6fc;
+  border: 2px solid #5cb6fc;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 10px 30px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
+.plan-btn-middle {
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%),
+    rgba(252, 163, 17, 0.1);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 0px 10px;
+  margin-top: 15px;
+}
+
+/*-----------------Customer-Section--------------*/
+
+#customer-section {
+  margin-top: 15vh;
+}
+.customer-heading {
+  font-family: "Nanum Gothic", sans-serif;
+  text-align: center;
+  color: rgb(41, 39, 39);
+  font-size: 50px;
+  padding: 15px 0px;
+}
+.customer-para {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: rgb(41, 39, 39);
+  font-size: 18px;
+  padding: 8px 0px;
+}
+.card-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 20px;
+}
+.customer-card {
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgb(211, 209, 209);
+  border-radius: 8px;
+  margin: 20px 20px;
+  margin-left: 50px;
+  padding: 0px 17px;
+  width: 40vw;
+  z-index: 1;
+}
+.customer-card-para {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  color: rgb(41, 39, 39);
+  font-size: 18px;
+  padding: 30px 0px;
+}
+.user-name-section {
+  padding-bottom: 25px;
+}
+.user-img {
+  height: 77px;
+  width: 77px;
+  padding-right: 10px;
+}
+.user-name-section {
+  display: flex;
+}
+.customer-name h3 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(13, 17, 31);
+  font-size: 18px;
+  padding: 10px 10px;
+}
+.customer-name p {
+  font-family: "Poppins", sans-serif;
+  color: rgb(41, 39, 39);
+  font-size: 16px;
+  padding: 1px 10px;
+}
+
+/*---------------Ragister-Section------------*/
+
+#register-content-section {
+  background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%),
+    rgba(252, 163, 17, 0.1);
+  margin-top: 15vh;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.register-heading {
+  width: 50vw;
+  margin-left: 30px;
+}
+#register-content-section h1 {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #fff;
+  font-size: 50px;
+  padding: 20px 0px;
+}
+#register-content-section h4 {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 20px 0px;
+}
+.register-new-btn {
+  color: #ffff;
+  border: 2px solid #fff;
+  background-color: transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 0 80px;
+  cursor: pointer;
+}
+/*------------------Footer-Section----------*/
+footer {
+  width: 100%;
+  padding: 100px 0 30px;
+  line-height: 20px;
+  margin-top: 5vh;
+}
+#footer-row {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.footercol {
+  flex-basis: 15%;
+  padding: 10px;
+}
+/* .footercol:nth-child(){
+
+} */
+.footercol p {
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+}
+.footerlogo {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 0px;
+  position: relative;
+}
+.footercol h3 {
+  position: relative;
+  width: fit-content;
+  color: rgb(24, 34, 66);
+  font-size: 27px;
+  padding-top: 25px;
+  margin-bottom: 25px;
+  left: 5px;
+}
+.footercol h4 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(41, 39, 39);
+  padding-left: 5px;
+  margin: 10px 0;
+}
+.footer-links {
+  list-style: none;
+}
+.footer-links a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: rgb(15, 10, 37);
+  margin: 10px 0;
+  font-size: 19px;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+.footercol img {
+  text-align: center;
+  padding-left: 5px;
+}

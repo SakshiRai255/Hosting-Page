@@ -1,0 +1,292 @@
+
+/*-----------Navbar_Section--------------*/
+
+@media (max-width: 1100px) {
+  #navbar {
+    border: 0.5px solid #fff;
+    align-items: center;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 0px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+  }
+  .logo {
+    height: 40px;
+    width: 150px;
+    margin-top: 0px;
+  }
+  #btn,
+  #cancel {
+    margin-right: 25px;
+  }
+  #btn {
+    display: block;
+  }
+
+  #menu-list {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 105%;
+    height: 90vh;
+    top: 83px;
+    left: -105%;
+    transition: all 0.5s;
+    background-color: #fff;
+  }
+  .list-items {
+    line-height: 40px;
+    margin: 5px 10px;
+  }
+  .list-items a {
+    font-size: 22px;
+  }
+
+  #check:checked ~ #menu-list {
+    left: 0;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}
+
+/*-----------------Main_Heading_Section----------------*/
+@media (max-width: 850px) {
+  .main-heading {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .main-heading2nd {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .first-heading {
+    width: 100%;
+  }
+  .first-headingM {
+    margin-left: 30px;
+  }
+  .second-heading {
+    width: 100%;
+  }
+  .hosting-intro-img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .hosting-intro-img1 {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .hosting-paragraph2nd {
+    height: 75px;
+    margin-bottom: 2vh;
+  }
+}
+/*----------------Hositing-Cloud-Card-Section----------*/
+@media (max-width: 940px) {
+  #hosting-card-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .hosting-card {
+    width: 40vw;
+    margin: 30px 30px;
+  }
+  .Cloud-hosting-paragraph {
+    word-break: break-all;
+  }
+}
+@media (min-width: 250) and (max-width: 600px) {
+  .hosting-card {
+    width: 100%;
+  }
+}
+/* ----------------Plan_Secrion----------------*/
+
+@media (max-width: 1100px) {
+  #main-plan-section {
+    padding: 60px 0px;
+  }
+  #plan-secction {
+    width: 100%;
+    height: 100%;
+    display: grid;
+  }
+  .plan-card {
+    display: grid;
+    height: 120vh;
+    width: 28vw;
+    margin-left: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
+    background-color: #fff;
+    z-index: 1;
+  }
+  .plan-rate-section {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 1030px) {
+  .plan-card {
+    display: grid;
+    height: 120vh;
+    width: 34vw;
+  }
+}
+@media (max-width: 885px) {
+  .plan-card {
+    display: grid;
+    height: 120vh;
+    width: 37vw;
+  }
+}
+@media (max-width: 800px) {
+  .plan-card {
+    display: grid;
+    height: 120vh;
+    width: 37vw;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 630px) {
+  .plan-card { 
+    width: 53vw;
+  }
+  .pack-name {
+    height: 160px;
+  }
+  .plan-heading {
+    font-size: 22px;
+  }
+  .plan-para {
+    padding: 4px 25px;
+    font-size: 15px;
+  }
+  .check-icon-para-section {
+    margin-top: 20px;
+  }
+  .check-icon {
+    padding-right: 15px;
+  }
+  .check-icon-para h3 {
+    font-size: 12px;
+  }
+  .check-icon-para {
+    padding: 5px 0px;
+  }
+  .plan-rate-section h1 {
+    font-size: 20px;
+  }
+
+  .plan-rate-section p {
+    font-size: 17px;
+  }
+  .plan-btn {
+    font-size: 15px;
+    padding: 5px 15px;
+    margin: 0px 0px;
+    margin-top: 2px;
+  }
+  .plan-btn-middle {
+    font-size: 15px;
+    padding: 5px 15px;
+    margin: 0px 0px;
+    margin-top: 2px;
+  }
+}
+/*-----------Customer-Section------------*/
+
+@media (max-width: 1071px) {
+  .customer-para {
+    word-break: break-all;
+  }
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .customer-card {
+    width: 90vw;
+    border: 1px solid rgb(211, 209, 209);
+    margin: 20px 20px;
+    margin-left: 30px;
+  }
+  .customer-card-para {
+    word-break: break-all;
+  }
+}
+
+/* ---------Ragister-Section---------------*/
+@media (max-width: 800px) {
+  #register-content-section {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .register-heading {
+    width: 100%;
+  }
+  #register-content-section h1 {
+    font-size: 50px;
+    padding: 15px 0px;
+    flex-wrap: wrap;
+  }
+  #register-content-section h4 {
+    font-size: 18px;
+    padding: 7px 0px;
+  }
+  .register-new-btn {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 48px;
+  }
+}
+@media (max-width: 500px) {
+  #register-content-section {
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .register-heading {
+    width: 100%;
+  }
+  #register-content-section h1 {
+    font-size: 40px;
+    padding: 12px 0px;
+    flex-wrap: wrap;
+  }
+  #register-content-section h4 {
+    font-size: 16px;
+    padding: 5px 0px;
+  }
+  .register-new-btn {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 52px;
+  }
+}
+
+/*-------------------------Footer-------------------*/
+@media (max-width: 700px) {
+  footer {
+    bottom: unset;
+  }
+  .footercol {
+    flex-basis: 100%;
+  }
+}
