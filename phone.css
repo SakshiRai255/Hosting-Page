@@ -64,7 +64,7 @@
 
 /*-----------------Main_Heading_Section----------------*/
 @media (max-width: 850px) {
-  .main-heading {
+  .main-heading-container {
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@
     margin-top: 0px;
     margin-left: 0px;
   }
-  .main-heading2nd {
+  .main-heading-container2 {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -82,16 +82,16 @@
     margin-top: 0px;
     margin-left: 20px;
   }
-  .first-heading {
+  .heading-box {
     width: 90%;
     margin-top: 10px;
   }
-  .first-headingM {
+  .heading-box2 {
     margin-left: 0px;
     margin-top: 0px;
   }
 
-  .second-heading {
+  .second-heading-box {
     width: 86%;
   }
   .hosting-intro-img {
@@ -125,14 +125,14 @@
     margin-top: 0px;
     width: 90%;
   }
-  .second-heading {
+  .second-heading-box {
     padding: 8px 8px;
     margin-bottom: 0px;
     margin-top: 80px;
     font-size: 22px;
     margin-left: 0px;
   }
-  .first-headingM {
+  .heading-box2 {
     margin-right: 10px;
   }
   .hosting-paragraph2nd {
@@ -143,6 +143,7 @@
     padding: 5px 5px;
   }
 }
+
 /*----------------Hositing-Cloud-Card-Section----------*/
 @media (max-width: 940px) {
   #hosting-card-section {
@@ -150,19 +151,22 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin-top: 0vh;
+    margin-top: 15vh;
   }
   .hosting-card {
     width: 40vw;
     margin: 30px 30px;
   }
-  .Cloud-hosting-paragraph {
-    word-break: break-all;
-  }
+  
 }
 @media (max-width: 600px) {
   #hosting-card-section {
     justify-content: center;
+    margin-top: 15vh;
+  }
+  .hosting-card {
+    
+    margin: 10px 30px;
   }
   .Cloud-hosting-heading {
     padding: 5px 5px;
@@ -177,7 +181,7 @@
 }
 @media (min-width: 250) and (max-width: 600px) {
   .hosting-card {
-    width: 90%;
+    width: 88%;
   }
 }
 /* ----------------Plan_Secrion----------------*/
@@ -187,16 +191,15 @@
     padding: 60px 0px;
   }
   #plan-secction {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
   }
   .plan-card {
     height: 120vh;
     width: 28vw;
-    margin-left: 30px;
   }
   .plan-rate-section {
-    margin-top: 0px;
+    margin-top: 30px;
   }
 }
 @media (max-width: 1030px) {
@@ -218,50 +221,67 @@
     margin-top: 25px;
   }
   .main-plan-section-heading {
-    font-size: 35px;
+    font-size: 30px;
     padding: 30px 0px;
+  }
+  .plan-rate-section {
+    margin-top: 50px;
+  }
+  .plan-rate-section h1 {
+    font-size: 28px;
+  }
+  .plan-rate-section p {
+    font-size: 20px;
+    padding: 10px 0px;
   }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 680px) {
   .main-plan-section-heading {
-    font-size: 30px;
+    font-size: 35px;
     padding: 5px 0px;
   }
   .plan-card {
-    width: 58vw;
+    width: 43vw;
     margin-left: 70px;
     height: 95vh;
+  }
+  .active2 {
+    margin-bottom: 30px;
   }
   .pack-name {
     height: 160px;
   }
   .plan-heading {
-    font-size: 22px;
+    font-size: 23px;
   }
   .plan-para {
     padding: 4px 25px;
-    font-size: 15px;
+    font-size: 17px;
+  }
+  .active-para {
+    color: #fff;
+    font-size: 13px;
   }
   .check-icon-para-section {
-    margin-top: 10px;
+    margin-top: 8px;
     height: 190px;
   }
-  .check-icon {
-    padding-right: 15px;
-  }
-  .check-icon-para h3 {
+    .check-icon-para h3 {
     font-size: 12px;
   }
   .check-icon-para {
-    padding: 5px 20px;
+    padding: 4px 20px;
+  }
+  .plan-rate-section {
+    height: 100px;
+    margin-top: 20px;
   }
   .plan-rate-section h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
-
   .plan-rate-section p {
-    font-size: 17px;
+    font-size: 15px;
   }
   .plan-btn {
     font-size: 15px;
@@ -270,13 +290,13 @@
     margin-top: 2px;
   }
   .plan-btn-middle {
-    font-size: 15px;
+    font-size: 12px;
     padding: 5px 15px;
     margin: 0px 0px;
     margin-top: 2px;
   }
 }
-@media (max-width: 380px) {
+@media (max-width: 480px) {
   .plan-card {
     width: 62vw;
     margin-left: 75px;

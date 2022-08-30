@@ -68,7 +68,7 @@ body {
 
 /*-----------------Main_Heading_Section----------------*/
 
-.main-heading {
+.main-heading-container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -76,26 +76,28 @@ body {
   width: 95%;
   margin-left: 40px;
 }
-.main-heading2nd {
+.main-heading-container2 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 25vh;
   width: 95%;
 }
-.first-heading {
-  width: 40vw;
+.heading-box {
+  width: 35vw;
   margin-top: 30px;
+  padding: 5px 10px;
+  box-sizing: content-box;
 }
 .hosting-heading {
   padding: 10px 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 45px;
+  font-size:45px;
   color: rgb(41, 39, 39);
-  text-align: justify;
+  text-align: start;
   font-family: "Nanum Gothic", sans-serif;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 .hosting-paragraph {
   padding: 15px 12px;
@@ -132,21 +134,21 @@ body {
   margin-top: 60px;
 }
 
-.second-heading {
+.second-heading-box {
+  width: 33vw;
   margin-bottom: 10px;
   margin-top: 15px;
   margin-left: 40px;
 }
 .hosting-paragraph2nd {
   font-size: 17px;
-  width: 62vw;
-  height: 70px;
+  width: 40vw;
+  height: 90px;
   color: rgb(31, 28, 28);
   margin-top: 10vh;
   padding: 5px 5px;
   font-family: "Poppins", sans-serif;
-  word-break: break-all;
-  text-align: justify;
+  text-align: start;
 }
 
 /*----------------Hositing-Cloud-Card-Section----------*/
@@ -177,16 +179,16 @@ body {
   margin-bottom: 10px;
   font-size: 15px;
   color: rgb(41, 39, 39);
-  word-break: break-all;
   font-family: "Poppins", sans-serif;
 }
+
 /* ----------------Plan_Section----------------*/
+
 #main-plan-section {
   padding: 60px 0px;
   background: linear-gradient(153.06deg, #09c6f9 -0.31%, #045de9 99.69%),
     rgba(252, 163, 17, 0.1);
 }
-
 .main-plan-section-heading {
   text-align: center;
   font-size: 50px;
@@ -196,14 +198,14 @@ body {
 
 #plan-section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 30rem);
+  grid-template-columns: repeat(auto-fill, 25rem);
   justify-content: center;
   align-items: center;
 }
 .plan-card {
   margin-top: 20px;
   height: 110vh;
-  width: 28vw;
+  width: 25vw;
   margin-left: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 40px rgba(0, 0, 0, 0.4);
@@ -211,7 +213,7 @@ body {
   z-index: 1;
 }
 .pack-name {
-  height: 150px;
+  height: 180px;
 }
 .plan-heading {
   padding: 10px 25px;
@@ -221,7 +223,8 @@ body {
   font-family: "Nanum Gothic", sans-serif;
 }
 .plan-para {
-  padding: 5px 25px;
+  padding: 0px 25px;
+  padding-bottom: 10px;
   font-size: 17px;
   color: rgb(41, 39, 39);
   font-family: "Poppins", sans-serif;
@@ -238,11 +241,11 @@ body {
   color: #fff;
 }
 .check-icon-para-section {
-  margin-top: 50px;
+  margin-top: 20px;
   height: 215px;
 }
 .check-icon {
-  padding-right: 15px;
+  padding-right: 10px;
 }
 .check-icon-para h3 {
   color: rgb(66, 66, 65);
@@ -251,13 +254,13 @@ body {
 }
 .check-icon-para {
   display: flex;
-  padding: 10px 0px;
-  padding-left: 15px;
+  padding: 10px 10px;
+  padding-left: 20px;
 }
 .plan-rate-section {
   text-align: center;
   height: 180px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .plan-rate-section h1 {
