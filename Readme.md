@@ -1,24 +1,19 @@
 ##  This is my Eleventh landing page created for learning front end designing using HTML and CSS.
 
-##  This landing page is responsive.
+##  This page is responsive.
 
 ### Tech Stack Used:-
 -   HTML
 -   CSS
 
 --- 
-##  [live-link](https://stunning-halva-72f457.netlify.app/)
+##  [live-link](https://hositing-landing-page.netlify.app/)
 
 
 ### These are images realted to landing page
 ---
-![Image](img/Screenshot%20(409).png)
 
-![Image](img/Screenshot%20(410).png)
-
-![Image](img/Screenshot%20(412).png)
-
-![Image](img/Screenshot%20(414).png)
+![Image](img/Screenshot%20(454).png)
 
 ![Image](img/Screenshot%20(416).png)
 

@@ -2,6 +2,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 body {
   background-color: #fff;
@@ -15,7 +16,6 @@ body {
   margin-top: 30px;
 }
 .logo {
-
   margin-top: 18px;
   margin-left: 30px;
   height: 45px;
@@ -76,7 +76,7 @@ body {
   width: 95%;
   margin-left: 40px;
 }
-.main-heading2nd{
+.main-heading2nd {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -84,23 +84,25 @@ body {
   width: 95%;
 }
 .first-heading {
-  width: 38vw;
+  width: 40vw;
   margin-top: 30px;
 }
 .hosting-heading {
   padding: 10px 10px;
   margin-bottom: 10px;
   margin-top: 10px;
-  font-size: 50px;
+  font-size: 45px;
   color: rgb(41, 39, 39);
+  text-align: justify;
   font-family: "Nanum Gothic", sans-serif;
   word-break: break-all;
 }
 .hosting-paragraph {
-  padding: 15px 10px;
+  padding: 15px 12px;
   margin-bottom: 10px;
   font-size: 20px;
   color: rgb(31, 28, 28);
+  text-align: justify;
   font-family: "Poppins", sans-serif;
   word-break: break-all;
 }
@@ -130,14 +132,9 @@ body {
   margin-top: 60px;
 }
 
-.second-heading{
-  padding: 10px 10px;
+.second-heading {
   margin-bottom: 10px;
-  margin-top: 10px;
-  font-size: 50px;
-  color: rgb(41, 39, 39);
-  font-family: "Nanum Gothic", sans-serif;
-  word-break: break-all;
+  margin-top: 15px;
   margin-left: 40px;
 }
 .hosting-paragraph2nd {
@@ -149,6 +146,7 @@ body {
   padding: 5px 5px;
   font-family: "Poppins", sans-serif;
   word-break: break-all;
+  text-align: justify;
 }
 
 /*----------------Hositing-Cloud-Card-Section----------*/
@@ -198,7 +196,7 @@ body {
 
 #plan-section {
   display: grid;
-  grid-template-columns:repeat(auto-fill,25rem);
+  grid-template-columns: repeat(auto-fill, 30rem);
   justify-content: center;
   align-items: center;
 }
