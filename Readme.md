@@ -1,4 +1,4 @@
-##  This is my Eleventh landing page created for learning front end designing using HTML and CSS.
+##  This is a landing page created for learning front end designing using HTML and CSS.
 
 ##  This page is responsive.
 
@@ -10,7 +10,7 @@
 ##  [live-link](https://hositing-landing-page.netlify.app/)
 
 
-### These are images realted to landing page
+### Snapshots
 ---
 
 ![Image](img/Screenshot%20(454).png)
